@@ -16,6 +16,8 @@ public class Ex2446_별찍기9 {
 		
 		for (int i = 0; i < n*2; i++) { 
 			
+			
+			
 		}
 		
 

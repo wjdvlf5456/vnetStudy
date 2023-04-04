@@ -14,6 +14,7 @@ public class Ex2446_별찍기9 {
 		
 		int n = Integer.parseInt(st.nextToken());
 		
+		
 		for (int i = 0; i < n*2; i++) { 
 		
 			

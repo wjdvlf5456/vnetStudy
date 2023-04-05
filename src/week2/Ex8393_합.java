@@ -15,7 +15,8 @@ public class Ex8393_합 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
 		StringTokenizer st = new StringTokenizer(br.readLine());
-
+ 
+		
 		int n = Integer.parseInt(st.nextToken());
 		int sum = 0;
 

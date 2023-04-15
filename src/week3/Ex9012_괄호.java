@@ -13,9 +13,6 @@ public class Ex9012_괄호 {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		
-		
-		
-		
 		br.close();
 		
 	}

@@ -16,6 +16,7 @@ public class Ex2839_설탕배달 {
 		int n = Integer.parseInt(st.nextToken());
 
 		int basket = 0;
+		
 
 		if (n == 4 || n == 7) {
 			System.out.println(-1);

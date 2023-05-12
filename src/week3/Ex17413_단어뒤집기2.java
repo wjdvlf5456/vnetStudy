@@ -5,11 +5,8 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.StringTokenizer;
 
 public class Ex17413_단어뒤집기2 {
 
@@ -20,40 +17,21 @@ public class Ex17413_단어뒤집기2 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		String[] word = br.readLine().split("");
 
-		int listSize = st.countTokens();
+		StringBuilder sb = new StringBuilder();
 
-		for (int i = 0; i < listSize; i++) {
-			String word = st.nextToken();
-			bList.add(word);
+		int count = 1;
 
-		}
-
-		StringBuffer sb = new StringBuffer();
-		StringBuilder sBuild = new StringBuilder(); 
-
-		for (int i = 0; i < bList.size(); i++) {
-
-			sb.delete(0, sb.length());
-
-			sb.append(bList.get(i));
-
-			sb.reverse();
-			bList.set(i, sb.toString());
-			
-			if (i == bList.size()-1) {
-				sBuild.append(bList.get(i));
-				
+		for (int i = 0; i < word.length; i++) {
+			sb.append(word[i]);
+			if (word[i].equals("<")) {
 			} else {
-				sBuild.append(bList.get(i)+" ");
 
 			}
 
 		}
 
-		System.out.println(sBuild.toString());
-		
 		
 		bw.flush();
 		bw.close();

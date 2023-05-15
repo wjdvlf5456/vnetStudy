@@ -29,6 +29,7 @@ public class Ex17413_단어뒤집기2 {
 			if (word[i].equals("<")) {
 			} else {
 
+				
 			}
 			
 

@@ -21,6 +21,7 @@ public class Ex17413_단어뒤집기2 {
 
 		StringBuilder sb = new StringBuilder();
 		
+		
 
 		int count = 1;
 

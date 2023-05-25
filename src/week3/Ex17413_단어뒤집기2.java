@@ -20,24 +20,19 @@ public class Ex17413_단어뒤집기2 {
 		String[] word = br.readLine().split("");
 
 		StringBuilder sb = new StringBuilder();
-		
-		
 
-		int count = 1;
+		int count = 0;
 
 		for (int i = 0; i < word.length; i++) {
 			sb.append(word[i]);
 			if (word[i].equals("<")) {
+				count = 1;
 			} else {
 
-				
 			}
-			
-			
 
 		}
 
-		
 		bw.flush();
 		bw.close();
 		br.close();

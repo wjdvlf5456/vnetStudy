@@ -18,7 +18,6 @@ public class Ex1010_다리놓기 {
 			int n = Integer.parseInt(st.nextToken());
 			int m = Integer.parseInt(st.nextToken());
 			
-			
 		}
 		
 		br.close();

@@ -21,6 +21,7 @@ public class Ex1010_다리놓기 {
 			
 		}
 		
+		
 		br.close();
 		
 	}

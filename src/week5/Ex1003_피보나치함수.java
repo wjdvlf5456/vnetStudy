@@ -32,7 +32,6 @@ public class Ex1003_피보나치함수 {
 				}
 				System.out.println(zero + " " + one);
 			}
-
 		}
 
 		br.close();

@@ -31,17 +31,14 @@ public class Ex10818_최소최대 {
 		}
 
 		Arrays.sort(nArray);
-		
+
 		String min = String.valueOf(nArray[0]);
-		String max = String.valueOf(nArray[n-1]);
+		String max = String.valueOf(nArray[n - 1]);
 		sb.append(min);
 		sb.append(" ");
 		sb.append(max);
-		
+
 		bw.write(sb.toString());
-		
-		
-		
 
 		bw.flush();
 		bw.close();
